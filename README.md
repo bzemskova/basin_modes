@@ -41,7 +41,8 @@ and $\alpha_\theta=2\times 10^{-4}\,\rm{K^{-1}}$ is the thermal expansion coeffi
  - Underlying MITgcm code to set up a suite of simulations for a certain basin size (here basin horizontal dimensions $L_x=L_y=400$ km) to sweep over Kelvin wave forcing frequencies $\omega$
  - "setup" folder contains files to be modified for each simulation setup (see Readme in the folder for details)
  - "build" and "runs" folder contents are generated after running file(s) in the "setup" folder
- - "code", "exec", and "input" contain MITgcm code files (both templates and files generated after running file(s) in the "setup" folder)
+ - "code" and "input" folders contain MITgcm code files (both templates and files generated after running file(s) in the "setup" folder)
+ - "exec" folder is empty - will be populated with executables when the code is compiled
  
 ### "python_post_processing" folder 
  Examples of how to plot output data (from "data" folder) in Python; here, using Jupyter notebook
