@@ -38,7 +38,7 @@ and $\alpha_\theta=2\times 10^{-4}\,\rm{K^{-1}}$ is the thermal expansion coeffi
  Sample data generated for a test case simulation with basin horizontal dimensions $L_x=L_y=400$ km and Kelvin wave forcing frequency of $\omega=1.48\times 10^{-4}$ rad/s. 
  
 ### "MITgcm_code" folder
- - Underlying MITgcm code to set up a suite of simulations for a certain basin size (here basin horizontal dimensions $L_x=L_y=400$ km) to sweep over Kelvin wave forcing frequencies $\omega$
+ - Underlying MITgcm code to set up a suite of simulations for a certain basin size (here basin horizontal dimensions $L_x=L_y=400$ km) to sweep over Kelvin wave forcing frequencies $\omega \in [1.05\times 10^{-4},3\times 10^{-4}]$ rad/s (60 simulations)
  - "setup" folder contains files to be modified for each simulation setup (see Readme in the folder for details)
  - "build" and "runs" folder contents are generated after running file(s) in the "setup" folder
  - "code" and "input" folders contain MITgcm code files (both templates and files generated after running file(s) in the "setup" folder)
