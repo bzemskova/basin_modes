@@ -1,0 +1,4 @@
+- "gendata_params.m": simulation parameters, including basin dimensions, range of forcing Kelvin wave frequencies, Coriolis parameter, simulation run time, time step
+- "gendata.m": specifies grid, topography, stratification of setup
+- "gendata_all.m": run to generate and link files in the "build", "code", "input", and "run" folders (reads parameters from "gendata_params.m" and specifications from "gendata.m", looping over all of the forcing frequencies)
+- "basin_400km_400km.mat": one of the output files from running "gendata_all.m" with grid locations of the semi-enclosed basin embedded in the larger simulation domain.
