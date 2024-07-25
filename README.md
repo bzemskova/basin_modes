@@ -35,7 +35,7 @@ and $\alpha_\theta=2\times 10^{-4}\,\rm{K^{-1}}$ is the thermal expansion coeffi
   - Forcing: barotropic Kelvin wave with forcing frequency $\omega$, which is varied, propagating from the left of the domain to the right as marked by black arrow in setup figure (b)
 
 ### "data" folder 
- Sample data generated for a test case simulation with basin horizontal dimensions $L_x=L_y=400$ km and Kelvin wave forcing frequency of $\omega=1.48\times 10^{-4}$ rad/s. 
+ Sample data generated for a test case simulation with basin horizontal dimensions $L_x=L_y=400$ km and Kelvin wave forcing frequency of $\omega=1.42\times 10^{-4}$ rad/s (frequency of the semi-diurnal tide). 
  
 ### "MITgcm_code" folder
  - Underlying MITgcm code to set up a suite of simulations for a certain basin size (here basin horizontal dimensions $L_x=L_y=400$ km) to sweep over Kelvin wave forcing frequencies $\omega \in [1.05\times 10^{-4},3\times 10^{-4}]$ rad/s (60 simulations)
